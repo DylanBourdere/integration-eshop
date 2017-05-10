@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link type="text/css" rel="stylesheet" href="css/jquery-ui.css" />
+    <script type="text/javascript" src="js/jQuery.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="slick-1.6.0/slick/slick.min.js"></script>
+    <link rel="stylesheet" href="slick-1.6.0/slick/slick.css">
+    <link rel="stylesheet" href="slick-1.6.0/slick/slick-theme.css" />
+    <link type="text/css" rel="stylesheet" href="font-awesome.css" />
+    <link type="text/css" rel="stylesheet" href="css/grid.css" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <title>Lookshop</title>
+  </head>
+  <body>
+    <header>
+      <div class="blackbar">
+        <div class="content_top">
+          <span>CUSTOM CARE:</span>
+          <span> 888-23-4567</span>
+          <div class="content_top_right">
+            <a href="#">$US <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-user" aria-hidden="true"></i> MY ACCOUNT</a>
+            <a class="last" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+      <nav>
+        <div class="max-width">
+          <img class="logo" src="img/logo.png" alt="Logo Lookshop">
+          <div class="cart">
+            <select class="select_cart" name="cart">
+              <option value="Your cart">Your cart</option>
+            </select>
+            <div class="total">
+              <span class="bag"><i class="fa fa-shopping-bag" aria-hidden="true"></i></span>
+              <div class="price">
+                <span class="number_items">0 ITEMS </span>
+                <span class="separator">| </span>
+                <span class="total_price">$ 0</span>
+              </div>
+            </div>
+          </div>
+          <div class="nav">
+            <a href="#">new <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+            <a href="#">designers <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+            <a href="#">women <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+            <a href="#">men <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+            <a href="#">clearence <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="single-item max-width">
+      <div><img src="img/carousel.png" alt=""></div>
+      <div><img src="img/carousel.png" alt=""></div>
+      <div><img src="img/carousel.png" alt=""></div>
+    </div>
+    <div id="news">
+      <div class="social_bar"> <!-- 55px de haut-->
+        <div class="max_width">
+          <div class="row">
+            <div class="col desktop-6">
+              <div class="social_left">
+                <span class="small-hide desktop-show">Stay updated</span>
+                <input type="text" placeholder="Your email adress" />
+                <button></button>
+              </div>
+            </div>
+            <div class="col desktop-6">
+              <div class="social_right">
+                <ul>
+                  <li><a href="#"><span>Find us here</span></a></li>
+                  <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="clear_all"></div>
+      </div>
+      <div class="clear_all"></div>
+      <div class="row panel small-hide medium-show"> <!-- BANNIERE AVEC LES 4 IMG -->
+        <div class="col desktop-6 col_left">
+          <img class="big_img" src="img/news/outfits.jpg" alt="test" />
+        </div>
+        <div class="col desktop-6 col_right">
+          <div class="row panel_right">
+            <div class="col">
+              <img src="img/news/summer.jpg" alt="test" />
+            </div>
+            <div class="col desktop-6 padding_right">
+              <img src="img/news/best_seller.jpg" alt="test" />
+            </div>
+            <div class="col desktop-6 padding-left">
+              <img src="img/news/fall_leather.jpg" alt="test" />
+            </div>
+          </div>
+        </div>
+      </div> <!-- FIN DE MON ROW PANEL-->
+    </div> <!-- FIN DE LA CATEGORIE NEWS -->
+    <div class="menu max-width">
+      <a href="#" class="menu-list active">WHAT'S HOT ?</a>
+      <a href="#" class="menu-list">DESIGNERS</a>
+      <a href="#" class="menu-list">FEATURED</a>
+      <a href="#" class="menu-list">LATEST</a>
+      <div class="arrownav">
+        <div class="arrow_right active"><span class="arrow"><i class="fa fa-arrow-right" aria-hidden="true"></i></span></div>
+        <div class="arrow_left"><span class="arrow"><i class="fa fa-arrow-left" aria-hidden="true"></i></span></div>
+      </div>
+    </div>
+    <div class="container_modele">
+      <div class="lazy row">
+        <div class="col desktop-3">
+          <img data-lazy="img/modele1.jpg" alt="">
+          <div class="description">
+            <h3 class="nom_produit">MIMOSA LACE DRESS</h3>
+            <span class="price_product">$76.95</span>
+            <br>
+            <a href="" class="add_to_cart"><img src="img/add_card.jpg" alt="add to cart"></a>
+          </div>
+        </div>
+        <div class="col desktop-3">
+          <img data-lazy="img/modele1.jpg" alt="">
+          <div class="description">
+            <h3 class="nom_produit">MIMOSA LACE DRESS</h3>
+            <span class="price_product">$76.95</span>
+            <br>
+            <a href="" class="add_to_cart"><img src="img/add_card.jpg" alt="add to cart"></a>
+          </div>
+        </div>
+        <div class="col desktop-3">
+          <img data-lazy="img/modele1.jpg" alt="">
+          <div class="description">
+            <h3 class="nom_produit">MIMOSA LACE DRESS</h3>
+            <span class="price_product">$76.95</span>
+            <br>
+            <a href="" class="add_to_cart"><img src="img/add_card.jpg" alt="add to cart"></a>
+          </div>
+        </div>
+        <div class="col desktop-3">
+          <img data-lazy="img/modele1.jpg" alt="">
+          <div class="description">
+            <h3 class="nom_produit">MIMOSA LACE DRESS</h3>
+            <span class="price_product">$76.95</span>
+            <br>
+            <a href="" class="add_to_cart"><img src="img/add_card.jpg" alt="add to cart"></a>
+          </div>
+        </div>
+        <div class="col desktop-3">
+          <img data-lazy="img/modele1.jpg" alt="">
+          <div class="description">
+            <h3 class="nom_produit">MIMOSA LACE DRESS</h3>
+            <span class="price_product">$76.95</span>
+            <br>
+            <a href="" class="add_to_cart"><img src="img/add_card.jpg" alt="add to cart"></a>
+          </div>
+        </div>
+        <div class="col desktop-3">
+          <img data-lazy="img/modele1.jpg" alt="">
+          <div class="description">
+            <h3 class="nom_produit">MIMOSA LACE DRESS</h3>
+            <span class="price_product">$76.95</span>
+            <br>
+            <a href="" class="add_to_cart"><img src="img/add_card.jpg" alt="add to cart"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="sale">
+      <div class="max_width">
+        <div class="top_sale">
+          <div class="circle"><img src="img/sale/circle.jpg" alt="circle" /></div>
+        </div>
+        <div class="row">
+          <div class="col small-6 desktop-3">
+            <div class="background">
+              <img src="img/sale/dress.jpg" alt="test" />
+              <h3>nadia dress</h3>
+              <span>$64.95</span>
+              <button></button>
+            </div>
+          </div>
+          <div class="col small-6 desktop-3">
+            <div class="background">
+              <img src="img/sale/dress2.jpg" alt="test" />
+              <h3>sofi blouse</h3>
+              <span>$26.95</span>
+              <button></button>
+            </div>
+          </div>
+          <div class="col small-hide desktop-show desktop-3">
+            <div class="background">
+              <img src="img/sale/dress3.jpg" alt="test" />
+              <h3>GOODING SHORTS</h3>
+              <span>$79.95</span>
+              <button></button>
+            </div>
+          </div>
+          <div class="col small-hide desktop-show desktop-3">
+            <div class="background">
+              <img src="img/sale/dress4.jpg" alt="test" />
+              <h3>MIMOSA LACE DRESS</h3>
+              <span>$76</span>
+              <button></button>
+            </div>
+          </div>
+          <div class="col small-12 desktop-hide">
+            <input type="button" value="load more" />
+          </div>
+        </div> <!-- FIN DE ROW -->
+      </div>
+    </div> <!-- FIN DE SALE -->
+    <div id="favorite">
+      <div class="title_favorite"></div>
+      <div class="border">
+        <ul>
+          <li><img src="img/favorite/icon1.jpg" alt="sponsor" /></li>
+          <li><img src="img/favorite/icon2.jpg" alt="sponsor" /></li>
+          <li><img src="img/favorite/icon3.jpg" alt="sponsor" /></li>
+          <li><img src="img/favorite/icon4.jpg" alt="sponsor" /></li>
+          <li><img src="img/favorite/icon5.jpg" alt="sponsor" /></li>
+          <li><img src="img/favorite/icon6.jpg" alt="sponsor" /></li>
+          <li><img src="img/favorite/icon7.jpg" alt="sponsor" /></li>
+          <li><img src="img/favorite/icon8.jpg" alt="sponsor" /></li>
+        </ul>
+      </div>
+      <div class="about">
+        <h2>About LookShop</h2>
+        <p>
+          This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue.
+        </p>
+      </div>
+    </div>
+    <div id="credit_card">
+      <div class="max_width">
+          <span>We accept</span>
+          <img  src="img/credit/visa.png" alt="visa Lookshop"/>
+          <img  src="img/credit/mastercard.png" alt="mastercard Lookshop"/>
+          <img  src="img/credit/paypal.png" alt="paypalLookshop"/>
+          <img  src="img/credit/american.png" alt="american Lookshop"/>
+          <img  src="img/credit/electron.png" alt="visa electron Lookshop"/>
+          <img  src="img/credit/lazer.png" alt="lazer Lookshop"/>
+          <img  src="img/credit/maestro.png" alt="maestro Lookshop"/>
+          <img  src="img/credit/delta.png" alt="delta Lookshop"/>
+          <img  src="img/credit/solo.png" alt="solo Lookshop"/>
+          <img  src="img/credit/idea.png" alt="idea Lookshop"/>
+          <img  src="img/credit/dk.png" alt="dk Lookshop"/>
+      </div>
+    </div>
+    <footer>
+      <div class="info">
+        <div class="row">
+          <div class="col desktop-3">
+            <h3>Customer Service</h3>
+            <ul>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Terms of payment</a></li>
+              <li><a href="#">Terms of sale</a></li>
+              <li><a href="#">Delivery terms and conditions</a></li>
+              <li><a href="#">Returns and refunds</a></li>
+            </ul>
+          </div>
+          <div class="col desktop-2">
+            <h3>Information</h3>
+            <ul>
+              <li><a href="#">Affiliate</a></li>
+              <li><a href="#">Cookies</a></li>
+              <li><a href="#">How to shop</a></li>
+              <li><a href="#">About Nelly</a></li>
+              <li><a href="#">Investor relations</a></li>
+            </ul>
+          </div>
+          <div class="col desktop-2">
+            <h3>Campaigns</h3>
+            <ul>
+              <li><a href="#">Affiliate</a></li>
+              <li><a href="#">Cookies</a></li>
+              <li><a href="#">How to shop</a></li>
+              <li><a href="#">About Nelly</a></li>
+              <li><a href="#">Investor relations</a></li>
+            </ul>
+          </div>
+          <div class="col desktop-1">
+            <h3>Stores</h3>
+            <ul>
+              <li><a href="#">Paris</a></li>
+              <li><a href="#">New York</a></li>
+              <li><a href="#">London</a></li>
+              <li><a href="#">Madrid</a></li>
+              <li><a href="#">Tokio</a></li>
+            </ul>
+          </div>
+          <div class="col desktop-2">
+            <h3>Social</h3>
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+          </div>
+          <div class="col desktop-2">
+            <h3 class="transparent">Nothing</h3>
+            <img src="img/footer/secured.png" alt="secured website" />
+          </div>
+        </div>
+      </div> <!-- FIN DE div INFO -->
+      <div class="black">
+        <div class="max_width">
+          <ul>
+            <li><a href="#">Privacy & Cookies</a></li>
+            <li>|</li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Accessibility</a></li>
+            <li><a href="#">Store Directory</a></li>
+            <li><a href="#">About Us</a></li>
+          </ul>
+          <div class="copyright">
+            <div>LookShop.com</div>
+            <div>All right reserved</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+      <script type="text/javascript">
+      $('.lazy').slick({
+        lazyLoad: 'ondemand',
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        prevArrow: $('.arrow_left'),
+        nextArrow: $('.arrow_right')
+      });
+      $('.single-item').slick({
+        autoplay: true,
+        autoplaySpeed: 3000,
+        appendArrows: $('.single-item'),
+        appendDots: $('.single-item')
+      });
+    </script>
+  </body>
+</html>

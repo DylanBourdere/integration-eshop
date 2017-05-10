@@ -1,0 +1,133 @@
+.max_width{max-width:970px;margin-left:auto;margin-right:auto;}
+.max-width{max-width:970px;margin-left:auto;margin-right:auto;}
+*{padding: 0;margin: 0;box-sizing: border-box;font-family: Arial;}
+a{text-decoration: none;color: black;}
+
+header .blackbar {background-color: black;line-height: 30px;}
+header .blackbar .content_top {font-family: Arial;color: white;font-size: 12px;max-width: 970px;margin: auto;vertical-align: middle;}
+header .blackbar .content_top_right {float: right;}
+header .blackbar .fa-caret-down {color: white;padding-left: 8px;}
+header .blackbar a {display: inline-block;text-decoration: none;color: white;border-left: solid 1px #444444;padding-left: 15px;padding-right: 15px;letter-spacing: 0px;}
+header .blackbar .last {border-right: solid 1px #444444;padding-left: 10px;padding-right: 10px;-moz-transform: scaleX(-1);-o-transform: scaleX(-1);-webkit-transform: scaleX(-1);transform: scaleX(-1);}
+header .blackbar .fa-user {color: #666666;padding-right: 8px;letter-spacing: 0px;}
+header nav .nav a {display: inline-block;text-decoration: none;color: black;padding-left: 32px;}
+header nav {height: 106px;}
+header nav .nav {float: right;line-height: 106px;font-size: 16px;}
+header nav .cart {float: right;vertical-align: middle;color: #b3b3b3;padding-left: 24px;padding-top: 21px;}
+header nav .cart select {background: transparent;width: 212px;padding: 5px;font-size: 12px;line-height: 1;height: 33px;color: #949393;border-color: #d6d6d6;}
+header nav .number_items {font-size: 11px;}
+header nav .separator {font-size: 11px;}
+header nav .total_price {font-size: 11px;}
+header nav .total {height: 32px;width: 212px;background-color: #fafafa;border: solid 1px #d6d6d6;border-top: none;line-height: 32px;color: #d6d6d6;}
+header nav .bag {padding-left: 8px;}
+header nav .price {float: right;padding-right: 12px;}
+
+.single-item img {height: 440px;}
+.single-item {height: 440px;}
+/*
+ * NEWS
+ */
+#news{font-family:Arial;padding-bottom:30px}
+#news  .clear_all{clear:both;}
+#news .social_bar{background:rgb(237,237,237);line-height:55px;max-height:55px;}
+#news .social_bar .social_left{font-size:0px;}
+#news .social_bar .social_left span{font-size:12px;display:inline;margin-right:10px}
+#news .social_bar .social_left input{width:85%;height:30px;padding: 0 0 0 10px;margin:0;border:none;font-size:12px}
+#news .social_bar .social_left button{width:10%;height:30px;background:url("../img/news/button-left.png") no-repeat 100% 100%;border:none;padding:0;margin:0 0 9.5px 0;vertical-align:middle;}
+#news .social_bar .social_right ul{margin:0;padding:0;font-size:12px;}
+#news .social_bar .social_right ul li{display:block;float:left;width:55px;text-align:center;color:rgb(107,107,107)}
+#news .social_bar .social_right ul li a{text-decoration:none;color:rgb(107,107,107)}
+#news .social_bar .social_right ul li:first-child{width:85px;}
+#news .social_bar .social_right ul li:nth-child(2){background:rgb(247,247,247);}
+#news .social_bar .social_right ul li:nth-child(4){background:rgb(247,247,247);}
+#news .social_bar .social_right ul li .fa{font-size:14px}
+#news .panel{font-size:0;margin-top:36px}
+#news .panel .col_left{padding: 0 1px 0 0}
+#news .panel .col_right{padding :0 0 0 1px}
+#news .panel .big_img{height:340px;}
+#news .panel .panel_right{margin:0}
+#news .panel .panel_right .desktop-6{margin-top:2px}
+#news .panel .panel_right .padding_right{padding-right:2px}
+#news .panel .panel_right .padding_left{padding-right:2px}
+#news .panel .row .col{padding:0}
+/*
+ * FIN news
+ */
+.menu .menu-list {display: inline-block;height: 48px;width: 130px;line-height: 48px;text-align: center;color: #555555;}
+.menu .active {background-color: #fd926d;color: #fff;}
+.menu .arrownav {float: right;height: 48px;}
+.menu .arrow_left {width: 47px;height: 48px;float: right;}
+.menu .arrow_right {width: 47px;height: 48px;float: right;}
+.menu .arrow {display: block;line-height: 48px;text-align: center;}
+.container_modele {height: 445px;background-color: #fd926d;}
+.container_modele .lazy {padding-top: 30px;}
+.container_modele .description {text-align: center;width: 220px;height: 105px;background-color: #fff;}
+.container_modele .price_product {font-size: 22px;line-height: 42px;}
+.container_modele .add_to_cart {display: block;margin: auto;width: 120px;}
+.container_modele .nom_produit {padding-top: 10px;font-size: 12px;font-weight: normal;}
+/*
+ * SALE
+ */
+#sale{margin-top:30px}
+#sale .top_sale{background:url("../img/sale/barre.png") repeat;min-height:157px}
+#sale .top_sale .circle{text-align:center;}
+#sale .row{margin-top:23px}
+#sale .row .col{text-align:center;}
+#sale .row .col .background{background:rgb(247,247,247)}
+#sale .row .col h3{text-transform:uppercase;font-weight:normal;font-size:12px;margin-top:6px;margin-bottom:6px;}
+#sale .row .col span{display:block;font-size:22px;margin-bottom:6px}
+#sale .row .col button{background:url("../img/sale/add_card.jpg");padding:0;margin:0;border:none;width : 120px;height:32px}
+#sale .row .col input{border:none;background:black;color:white;text-transform:uppercase;font-size:12px;padding:10px 20px 10px 20px;margin-top:30px}
+/*
+* FIN DE SALE
+*/
+/*
+ *  FAVORITE
+ */
+#favorite{margin-top:50px;font-size:0px;padding-bottom:30px}
+#favorite .title_favorite{height:12px;background:url("../img/favorite/top_favorite.jpg") no-repeat center;}
+#favorite .border{border-bottom: 1px solid rgb(216,216,216);}
+#favorite ul{padding:0;margin:0;max-width:970px;margin-left:auto;margin-right:auto;}
+#favorite ul li{display:inline-block;width:12.5%}
+#favorite .about{max-width:970px;margin-left:auto;margin-right:auto;}
+#favorite .about h2{color:rgb(65,65,65);font-size:24px;font-weight:normal;text-align:center}
+#favorite .about p{margin:0;font-size:14px;color:rgb(217,217,217);text-align:center;font-family:Arial}
+/*
+ *CREDIT CARD
+ */
+ #credit_card{background:rgb(247,247,247)}
+#credit_card .max_width{text-align:center;line-height:56px}
+#credit_card .max_width img{vertical-align:middle}
+#credit_card .max_width span{font-size:12px}
+/*
+ * FIN CREDIT CARD
+ */
+/*
+ * FOOTER
+ */
+footer .info{background:rgb(237,237,237)}
+footer .info .row .col h3{font-size:16px;color:rgb(84,79,77)}
+footer .info .row .col ul{padding:0}
+footer .info .row .col ul li{list-style:none;}
+footer .info .row .col ul li a{text-decoration:none;color:rgb(84,79,77);font-size:12px}
+footer .info .row .col .fa{width:35px;height:35px;background:rgb(76,76,75);line-height:35px;text-align:center;border-radius:50%;color:white;font-size:18px;margin-bottom:10px;margin-right:6px}
+footer .info .row .col .transparent{color:transparent}
+footer .black{font-size:0;height:75px;background:black;}
+footer .black ul{padding:0;float:left;line-height:75px;}
+footer .black ul li{display:inline-block;list-style:none;padding-left:10px;padding-right:10px;}
+footer .black ul li:first-child{padding-left:0}
+footer .black ul li:last-child{padding-right:0;border:none;}
+footer .black ul li a{font-size:11px;color:rgb(141,141,141);text-decoration:none}
+footer .black .copyright{float:right;font-size:11px;color:rgb(141,141,141);line-height:75px;}
+footer .black .copyright div:first-child{line-height:45px}
+footer .black .copyright div:last-child{line-height:9px}
+/*
+ * FIN FOOTER
+ */
+ @media screen and (min-width : 64rem)
+ {
+   #news .social_bar .social_left{font-size:0px;float:left;}
+   #news .social_bar .social_right{float:right;}
+   #news .social_bar .social_left input{width:135px;height:30px;padding: 0 0 0 10px;margin:0;border:none;font-size:12px}
+   #news .social_bar .social_left button{width:28px;height:30px;background:url("../img/news/button-left.png") 100% 100%;border:none;padding:0;margin:0 0 9.5px 0;vertical-align:middle;}
+ }
